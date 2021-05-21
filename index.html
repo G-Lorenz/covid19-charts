@@ -129,12 +129,13 @@
         			    </li>
                     </ul>
                     <ul id="hopkins_box" class="data_source">
-                        <li>data collected from <a href="https://github.com/CSSEGISandData/COVID-19">here</a></li>
+                        <li>data collected from <a href="https://github.com/CSSEGISandData/COVID-19">here</a> and <a href="https://github.com/govex/COVID-19">here</a></li>
                         <li>Data set:
                             <select class="dataset_select">
                                 <option value="hopkins_confirmed">Confirmed</option>
                                 <option value="hopkins_deaths">Deaths</option>
                                 <option value="hopkins_recovered">Recovered</option>
+                                <option value="hopkins_vaccines">Vaccines</option>
                             </select>
                         </li>
                         <li>Series:
@@ -152,6 +153,11 @@
                             <select name="recovered_filter" class="hopkins recovered dataset_option"></select>
                             <select name="recovered_subfilter" class="hopkins recovered dataset_option hide"></select>
                             <select name="recovered_column" class="hopkins recovered dataset_option"></select>
+
+                            <select name="vaccines_supranat" class="hopkins vaccines dataset_option"></select>
+                            <select name="vaccines_filter" class="hopkins vaccines dataset_option"></select>
+                            <select name="vaccines_subfilter" class="hopkins vaccines dataset_option hide"></select>
+                            <select name="vaccines_column" class="hopkins vaccines dataset_option"></select>
                         </li>
                     </ul>
                     <ul id="hopkinsUS_box" class="data_source">
