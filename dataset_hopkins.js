@@ -256,7 +256,7 @@ class HopkinsVaccinesDataset extends HopkinsDataset {
         this.name = "vaccines";
         this.filter_column = "Country_Region";
         this.subfilter_column = "Province_State";
-	this.REPOSITORY_URL = "govex/COVID-19/master/";
+	this.REPOSITORY_URL = "https://raw.githubusercontent.com/govex/COVID-19/master/";
         this.path = "data_tables/vaccine_data/global_data/time_series_covid19_vaccine_doses_admin_global.csv";
         this.fields = [
                 'Doses_admin',
